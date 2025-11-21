@@ -1,5 +1,6 @@
 # FashionStore_OTIMobApps25
 **Dibuat oleh:** Aliya Khairun Nisa (KOMA 24) 
+**Link aplikasi dan jawaban:** `https://drive.google.com/drive/folders/1Hf74JfOnuHdnvKIgdJQjEkQ0Cqg-9ko1?usp=sharing`
 
 Aplikasi E-Commerce Fashion berbasis Mobile yang dibuat menggunakan Flutter untuk penugasan Open Recruitment OmahTI 2025 Divisi Mobile Apps. Aplikasi ini mencakup implementasi autentikasi pengguna, manajemen state, dan antarmuka yang responsif.
 
@@ -33,17 +34,17 @@ Halaman pertama yang muncul saat aplikasi dibuka.
 Panduan awal untuk pengguna baru.
 * **Fungsi:** Menjelaskan value proposition aplikasi (Discover Trends, Quality Products, Easy Shopping).
 * **Elemen UI:**
-     * `PageView`: Untuk menggeser slide informasi.
-    * `Indikator Halaman`: Titik-titik di bawah yang menunjukkan posisi slide aktif.
+     * PageView: Untuk menggeser slide informasi.
+    * Indikator Halaman: Titik-titik di bawah yang menunjukkan posisi slide aktif.
     * Tombol "Skip": Langsung menuju halaman Login.
     * Tombol "Next/Get Started": Pindah ke slide berikutnya atau masuk ke aplikasi.
 
 ### 3. Sign In (Halaman Masuk)
 Halaman untuk pengguna yang sudah memiliki akun.
 * **Elemen UI:**
-    * `CustomTextField`: Input Email dan Password dengan ikon.
-    * `Toggle Visibility`: Ikon mata untuk melihat/menyembunyikan password.
-    * `Forgot Password`: Link untuk reset password.
+    * CustomTextField: Input Email dan Password dengan ikon.
+    * Toggle Visibility: Ikon mata untuk melihat/menyembunyikan password.
+    * Forgot Password: Link untuk reset password.
 * **Validasi:** Mengecek format email dan memastikan field tidak kosong sebelum memanggil fungsi `AuthController.login()`.
 
 ### 4. Sign Up (Halaman Daftar)
@@ -57,7 +58,23 @@ Fitur pemulihan akun.
 * **Elemen UI:** Input email tunggal dan tombol "Send Reset Link".
 * **Feedback:** Menampilkan dialog sukses ("Check Your Email") setelah tombol ditekan.
 
-### 6. Responsiveness & Theme
+### 6. Home Screen (Main Dashboard)
+Halaman utama tempat pengguna menjelajahi toko.
+* **Custom Search Bar:** Kolom pencarian di bagian atas untuk menemukan produk dengan cepat.
+* **Sale Banner:** Banner promosi visual ("Super Sale 50% Off") untuk menarik perhatian pengguna.
+* **Category Chips:** Filter produk berdasarkan kategori (All, Shoes, Clothes, dll) yang bisa digeser horizontal.
+* **Product Grid:** Menampilkan daftar produk dalam layout 2 kolom (Grid View). Setiap kartu produk menampilkan gambar, nama, rating, dan harga.
+
+### 7. Main Navigation (Bottom Bar)
+Navigasi utama yang selalu terlihat di bagian bawah layar.
+* **Fungsi:** Memudahkan pengguna berpindah antar modul utama tanpa kehilangan konteks.
+* **Menu:**
+    * **Home:** Kembali ke dashboard utama.
+    * **Wishlist:** Halaman produk favorit (disimpan).
+    * **Cart:** Keranjang belanja.
+    * **Account:** Profil pengguna dan pengaturan tema.
+
+### 8. Responsiveness & Theme
 Aplikasi menyesuaikan tampilan berdasarkan preferensi sistem atau pengaturan pengguna (Dark Mode / Light Mode). Warna teks dan background akan berubah otomatis untuk kenyamanan mata.
 
 ---
