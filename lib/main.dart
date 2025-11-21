@@ -5,11 +5,13 @@ import 'package:get/get.dart';
 import 'package:otimobapps25/utils/app_themes.dart';
 import 'package:otimobapps25/view/splash_screen.dart';
 import 'package:otimobapps25/controllers/auth_controllers.dart';
+import 'package:otimobapps25/controllers/navigation_controller.dart';
 
 void main() async {
   await GetStorage.init();
   Get.put(ThemeControllers());
   Get.put(AuthController());
+  Get.put(NavigationController());
   runApp(const MyApp());
 }
 
