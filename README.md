@@ -32,7 +32,8 @@ Halaman pertama yang muncul saat aplikasi dibuka.
 ### 2. Onboarding Screen
 Panduan awal untuk pengguna baru.
 * **Fungsi:** Menjelaskan value proposition aplikasi (Discover Trends, Quality Products, Easy Shopping).
-* **Elemen UI:** * `PageView`: Untuk menggeser slide informasi.
+* **Elemen UI:**
+     * `PageView`: Untuk menggeser slide informasi.
     * `Indikator Halaman`: Titik-titik di bawah yang menunjukkan posisi slide aktif.
     * Tombol "Skip": Langsung menuju halaman Login.
     * Tombol "Next/Get Started": Pindah ke slide berikutnya atau masuk ke aplikasi.
