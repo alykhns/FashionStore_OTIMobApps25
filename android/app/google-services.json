@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "774153958132",
+    "project_id": "otimobapps25",
+    "storage_bucket": "otimobapps25.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774153958132:android:e920cf878e5369d77324a1",
+        "android_client_info": {
+          "package_name": "com.aliya.otimobapps25"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn_W-JpLaPWNEDM6VRMPyBM2i-U9ttka0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
