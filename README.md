@@ -1,6 +1,6 @@
 # FashionStore_OTIMobApps25
-**Dibuat oleh:** Aliya Khairun Nisa (KOMA 24) 
-**Link aplikasi dan jawaban:** `https://drive.google.com/drive/folders/1Hf74JfOnuHdnvKIgdJQjEkQ0Cqg-9ko1?usp=sharing`
+- **Dibuat oleh:** Aliya Khairun Nisa (KOMA 24) 
+- **Link aplikasi dan jawaban:** `https://drive.google.com/drive/folders/1Hf74JfOnuHdnvKIgdJQjEkQ0Cqg-9ko1?usp=sharing`
 
 Aplikasi E-Commerce Fashion berbasis Mobile yang dibuat menggunakan Flutter untuk penugasan Open Recruitment OmahTI 2025 Divisi Mobile Apps. Aplikasi ini mencakup implementasi autentikasi pengguna, manajemen state, dan antarmuka yang responsif.
 
